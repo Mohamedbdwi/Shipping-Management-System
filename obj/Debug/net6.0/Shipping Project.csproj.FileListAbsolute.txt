@@ -1,0 +1,26 @@
+D:\My intensive Code camp\Shipping Task\Shipping Project\bin\Debug\net6.0\appsettings.Development.json
+D:\My intensive Code camp\Shipping Task\Shipping Project\bin\Debug\net6.0\appsettings.json
+D:\My intensive Code camp\Shipping Task\Shipping Project\bin\Debug\net6.0\Shipping Project.staticwebassets.runtime.json
+D:\My intensive Code camp\Shipping Task\Shipping Project\bin\Debug\net6.0\Shipping Project.exe
+D:\My intensive Code camp\Shipping Task\Shipping Project\bin\Debug\net6.0\Shipping Project.deps.json
+D:\My intensive Code camp\Shipping Task\Shipping Project\bin\Debug\net6.0\Shipping Project.runtimeconfig.json
+D:\My intensive Code camp\Shipping Task\Shipping Project\bin\Debug\net6.0\Shipping Project.dll
+D:\My intensive Code camp\Shipping Task\Shipping Project\bin\Debug\net6.0\Shipping Project.pdb
+D:\My intensive Code camp\Shipping Task\Shipping Project\obj\Debug\net6.0\Shipping Project.csproj.AssemblyReference.cache
+D:\My intensive Code camp\Shipping Task\Shipping Project\obj\Debug\net6.0\Shipping Project.GeneratedMSBuildEditorConfig.editorconfig
+D:\My intensive Code camp\Shipping Task\Shipping Project\obj\Debug\net6.0\Shipping Project.AssemblyInfoInputs.cache
+D:\My intensive Code camp\Shipping Task\Shipping Project\obj\Debug\net6.0\Shipping Project.AssemblyInfo.cs
+D:\My intensive Code camp\Shipping Task\Shipping Project\obj\Debug\net6.0\Shipping Project.csproj.CoreCompileInputs.cache
+D:\My intensive Code camp\Shipping Task\Shipping Project\obj\Debug\net6.0\Shipping Project.MvcApplicationPartsAssemblyInfo.cache
+D:\My intensive Code camp\Shipping Task\Shipping Project\obj\Debug\net6.0\Shipping Project.RazorAssemblyInfo.cache
+D:\My intensive Code camp\Shipping Task\Shipping Project\obj\Debug\net6.0\Shipping Project.RazorAssemblyInfo.cs
+D:\My intensive Code camp\Shipping Task\Shipping Project\obj\Debug\net6.0\staticwebassets.build.json
+D:\My intensive Code camp\Shipping Task\Shipping Project\obj\Debug\net6.0\staticwebassets.development.json
+D:\My intensive Code camp\Shipping Task\Shipping Project\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\My intensive Code camp\Shipping Task\Shipping Project\obj\Debug\net6.0\scopedcss\bundle\Shipping Project.styles.css
+D:\My intensive Code camp\Shipping Task\Shipping Project\obj\Debug\net6.0\scopedcss\projectbundle\Shipping Project.bundle.scp.css
+D:\My intensive Code camp\Shipping Task\Shipping Project\obj\Debug\net6.0\Shipping Project.dll
+D:\My intensive Code camp\Shipping Task\Shipping Project\obj\Debug\net6.0\refint\Shipping Project.dll
+D:\My intensive Code camp\Shipping Task\Shipping Project\obj\Debug\net6.0\Shipping Project.pdb
+D:\My intensive Code camp\Shipping Task\Shipping Project\obj\Debug\net6.0\Shipping Project.genruntimeconfig.cache
+D:\My intensive Code camp\Shipping Task\Shipping Project\obj\Debug\net6.0\ref\Shipping Project.dll
