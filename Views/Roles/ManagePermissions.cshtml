@@ -1,0 +1,80 @@
+﻿@model PermissionsFormViewModel
+
+@{
+    ViewData["Title"] = "Manage Permissions";
+}
+
+<form asp-action="ManagePermissions" method="post">
+    <div class="card mt-4">
+        <div class="card-header">
+            <h2>@Model.RoleName</h2>
+        </div>
+
+        <div class="card-body">
+            <input type="hidden" asp-for="RoleId" />
+
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>Module Name</th>
+                        <th>Show </th>
+                        <th>Add</th>
+                        <th>Edit</th>
+                        <th>delete</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                    <tr>
+                        <td> Employees</td>
+                        @for (int i = 0; i < 4; i++)
+                        {
+                            <input type="hidden" asp-for="@Model.RoleClaims[i].DisplayValue" />
+                            <td><input type="checkbox" asp-for="@Model.RoleClaims[i].IsSelected" class="form-check-input" /></td>
+                        }
+                    </tr>
+                    <tr>
+                        <td>General Settings</td>
+                        @for (int i = 4; i < 8; i++)
+                        {
+                            <input type="hidden" asp-for="@Model.RoleClaims[i].DisplayValue" />
+                            <td>
+                                <input asp-for="@Model.RoleClaims[i].IsSelected" class="form-check-input" />
+                            </td>
+                        }
+
+                    </tr>
+                    <tr>
+                        <td>Attendance And Leave</td>
+                        @for (int i = 8; i < 12; i++)
+                        {
+                            <input type="hidden" asp-for="@Model.RoleClaims[i].DisplayValue" />
+                            <td>
+                                <input asp-for="@Model.RoleClaims[i].IsSelected" class="form-check-input" />
+                            </td>
+                        }
+                    </tr>
+                    <tr>
+                        <td>Salary Report</td>
+                        @for (int i = 12; i < 16; i++)
+                        {
+                            <input type="hidden" asp-for="@Model.RoleClaims[i].DisplayValue" />
+                            <td>
+                                <input asp-for="@Model.RoleClaims[i].IsSelected" class="form-check-input" />
+                            </td>
+                        }
+                    </tr>
+
+                </tbody>
+            </table>
+
+            
+            <div asp-validation-summary="All" class="text-danger"></div>
+        </div>
+        <div class="card-footer">
+            <button type="submit" class="btn btn-primary">Save</button>
+            <a asp-action="Index" class="btn btn-secondary">cancel</a>
+        </div>
+    </div>
+
+</form>

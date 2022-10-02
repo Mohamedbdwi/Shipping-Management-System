@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "quDU/VmocsNoB8wVy4kuTbwJKzSYujLKOrt60niduS4=",
+  "Hash": "22kNplKgSvnjh9TzrLmyLyCunWnHas6A4m4nIjk/+zg=",
   "Source": "Shipping Project",
   "BasePath": "_content/Shipping Project",
   "Mode": "Default",
@@ -83,6 +83,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "D:\\My intensive Code camp\\Shipping Task\\Shipping Project\\wwwroot\\images\\pioneer.jpg",
+      "SourceId": "Shipping Project",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\My intensive Code camp\\Shipping Task\\Shipping Project\\wwwroot\\",
+      "BasePath": "_content/Shipping Project",
+      "RelativePath": "images/pioneer.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\pioneer.jpg"
+    },
+    {
+      "Identity": "D:\\My intensive Code camp\\Shipping Task\\Shipping Project\\wwwroot\\images\\wallpaper2.jpg",
+      "SourceId": "Shipping Project",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\My intensive Code camp\\Shipping Task\\Shipping Project\\wwwroot\\",
+      "BasePath": "_content/Shipping Project",
+      "RelativePath": "images/wallpaper2.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\wallpaper2.jpg"
     },
     {
       "Identity": "D:\\My intensive Code camp\\Shipping Task\\Shipping Project\\wwwroot\\js\\site.js",

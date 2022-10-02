@@ -1,0 +1,35 @@
+﻿@model IEnumerable<UserViewModel>
+
+@{
+    ViewData["Title"] = "Users";
+}
+
+<link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+
+<h1 class="witColor"> Users List</h1>
+
+<hr />
+
+<table class="witColor table">
+    <thead>
+        <tr>
+            <th>User</th>
+            <th>Email</th>
+            <th>Roles</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody class="witColor">
+        @foreach (var user in Model)
+        {
+            <tr>
+                <td>@user.UserName</td>
+                <td>@user.Email</td>
+                <td>@string.Join(", ", user.Roles.ToList())</td>
+                <td>
+                    <a class="btn btn-primary" asp-controller="User" asp-action="ManageRoles" asp-route-userId="@user.Id">Manage Roles</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

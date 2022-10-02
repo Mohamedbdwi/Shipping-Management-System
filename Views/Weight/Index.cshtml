@@ -1,0 +1,51 @@
+﻿@model Shipping_Project.Models.Weights
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Weights</h1>
+
+<div>
+    
+    <hr />
+    <dl class="row">
+        
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.NormalWeight)
+        </dt>
+
+        <dd class = "col-sm-10">
+            <input id="NormalWeight" type="number" value="@Model.NormalWeight" readonly />
+        </dd>
+
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.NormalCost)
+        </dt>
+
+        <dd class = "col-sm-10">
+            <input id="NormalCost" type="number" value="@Model.NormalCost" readonly />
+        </dd>
+
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.ExtraCostPerKG)
+        </dt>
+
+        <dd class = "col-sm-10">
+            <input id="ExtraCostPerKG" type="number" value="@Model.ExtraCostPerKG" readonly />
+        </dd>
+
+    </dl>
+</div>
+
+
+
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+        <script src="~/js/cost.js"></script>
+    }
+  
+    
+}

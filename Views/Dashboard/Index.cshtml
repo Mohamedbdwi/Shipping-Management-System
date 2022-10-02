@@ -1,0 +1,30 @@
+﻿<link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+
+<div class="d-container">
+    @if (User.IsInRole(Roles.SuperAdmin.ToString())){
+    <div class="c-container">
+        <a class="c-btn .witColor" asp-area="" asp-controller="User" asp-action="index">Manage Users</a>
+    </div>
+
+    <div class="c-container">
+        <a class="c-btn .witColor" asp-area="" asp-controller="Roles" asp-action="Index">Manage Roles</a>
+    </div>
+
+    <div class="c-container">
+        <a class="c-btn .witColor" asp-area="" asp-controller="Account" asp-action="AddNewUser">Add New User</a>
+    </div>
+    }
+    <div class="c-container">
+        <a class="c-btn .witColor" asp-area="" asp-controller="Weight" asp-action="Edit">Manage Weight</a>
+    </div>
+
+
+</div>
+
+
+
+
+
+
+
+ 
